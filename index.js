@@ -4,7 +4,7 @@ var fs      = require('fs'),
     program = require('commander');
 
 program
-  .version('1.0.1')
+  .version('1.0.0')
   .parse(process.argv);
 
 var args = program.args;
@@ -48,7 +48,7 @@ for(var i = 0, len1 = sourceDir.length; i < len1; i++) {
       }
       else if(fs.existsSync(path + '/package.json')) {
 
-        console.log(fileName);
+
 
         fs.createReadStream(path + '/package.json')
           .pipe(fs.createWriteStream(fileName));
