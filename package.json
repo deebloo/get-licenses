@@ -1,0 +1,25 @@
+{
+  "name": "get-licenses",
+  "version": "1.0.0",
+  "description": "look through your bower_components and node_modules folders to gather the license information about your installed libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "get_licenses"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DannyBlueDesign/get-licenses.git"
+  },
+  "keywords": [
+    "licenses"
+  ],
+  "author": "Danny Blue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannyBlueDesign/get-licenses/issues"
+  },
+  "homepage": "https://github.com/DannyBlueDesign/get-licenses",
+  "bin": {
+    "get_licenses": "index.js"
+  }
+}
