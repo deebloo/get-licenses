@@ -48,8 +48,6 @@ for(var i = 0, len1 = sourceDir.length; i < len1; i++) {
       }
       else if(fs.existsSync(path + '/package.json')) {
 
-
-
         fs.createReadStream(path + '/package.json')
           .pipe(fs.createWriteStream(fileName));
 
