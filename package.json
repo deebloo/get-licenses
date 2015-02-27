@@ -1,6 +1,6 @@
 {
   "name": "get-licenses",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "look through your bower_components and node_modules folders to gather the license information about your installed libraries",
   "main": "index.js",
   "scripts": {
