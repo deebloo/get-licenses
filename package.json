@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DannyBlueDesign/get-licenses.git"
+    "url": "https://github.com/deebloo/get-licenses.git"
   },
   "keywords": [
     "licenses"
@@ -16,9 +16,9 @@
   "author": "Danny Blue",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DannyBlueDesign/get-licenses/issues"
+    "url": "https://github.com/deebloo/get-licenses/issues"
   },
-  "homepage": "https://github.com/DannyBlueDesign/get-licenses",
+  "homepage": "https://github.com/deebloo/get-licenses",
   "bin": {
     "get_licenses": "index.js"
   },
