@@ -21,5 +21,8 @@
   "homepage": "https://github.com/DannyBlueDesign/get-licenses",
   "bin": {
     "get_licenses": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.6.0"
   }
 }
